@@ -33,6 +33,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:atmega328pb
 LIBS:microquad-v1-cache
 EELAYER 25 0
 EELAYER END
