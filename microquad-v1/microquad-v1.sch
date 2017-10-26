@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -49,20 +49,29 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2975 1675 600  175 
+S 3000 1650 600  200 
 U 59F2417D
 F0 "Main Regulator" 60
 F1 "reg.sch" 60
-F2 "OUT" I R 3575 1750 60 
-F3 "IN" I L 2975 1750 60 
+F2 "OUT" I R 3600 1750 60 
+F3 "IN" I L 3000 1750 60 
 $EndSheet
 $Sheet
-S 2975 2250 500  325 
+S 3025 2250 825  300 
 U 59F242F1
 F0 "USB interface" 60
 F1 "usb_uart.sch" 60
-F2 "RX" I R 3475 2300 60 
-F3 "TX" I R 3475 2400 60 
-F4 "5V" I R 3475 2500 60 
+F2 "RX" I R 3850 2300 60 
+F3 "TX" I R 3850 2400 60 
+F4 "5V" I R 3850 2500 60 
+$EndSheet
+$Sheet
+S 3050 3000 950  300 
+U 59F2494E
+F0 "ATMEGA power" 60
+F1 "atmega328_power.sch" 60
+F2 "VCC" I R 4000 3050 60 
+F3 "AVCC" I R 4000 3150 60 
+F4 "AREF" I R 4000 3250 60 
 $EndSheet
 $EndSCHEMATC
