@@ -1,4 +1,4 @@
-update=Thu 26 Oct 2017 05:24:35 PM EDT
+update=Sat 28 Oct 2017 07:20:49 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,5 +64,4 @@ LibName32=atmel
 LibName33=contrib
 LibName34=valves
 LibName35=kipart/atmega328pb
-[general]
-version=1
+LibName36=libs/hoppe/eclectronics

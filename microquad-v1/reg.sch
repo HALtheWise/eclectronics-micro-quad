@@ -34,12 +34,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:atmega328pb
+LIBS:eclectronics
 LIBS:microquad-v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -61,10 +62,10 @@ F 3 "" H 4250 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR04
 U 1 1 59F29DBE
 P 4250 3600
-F 0 "#PWR?" H 4250 3350 50  0001 C CNN
+F 0 "#PWR04" H 4250 3350 50  0001 C CNN
 F 1 "GND" H 4250 3450 50  0000 C CNN
 F 2 "" H 4250 3600 50  0001 C CNN
 F 3 "" H 4250 3600 50  0001 C CNN
