@@ -230,4 +230,6 @@ Wire Wire Line
 	3350 2950 3500 2950
 Wire Wire Line
 	2100 3400 2300 3400
+Text Label 3350 3400 0    60   ~ 0
+VBAT
 $EndSCHEMATC
