@@ -35,12 +35,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:atmega328pb
 LIBS:eclectronics
+LIBS:imulogger2
 LIBS:microquad-v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -232,4 +233,15 @@ Wire Wire Line
 	2100 3400 2300 3400
 Text Label 3350 3400 0    60   ~ 0
 VBAT
+$Sheet
+S 2700 1100 850  500 
+U 59F5A3F3
+F0 "IMU" 60
+F1 "mpu9250.sch" 60
+F2 "CS" I R 3550 1150 60 
+F3 "SCK" I R 3550 1250 60 
+F4 "SDI" I R 3550 1350 60 
+F5 "SDO" I R 3550 1450 60 
+F6 "INT" I R 3550 1550 60 
+$EndSheet
 $EndSCHEMATC

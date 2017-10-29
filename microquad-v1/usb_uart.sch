@@ -35,12 +35,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:atmega328pb
 LIBS:eclectronics
+LIBS:imulogger2
 LIBS:microquad-v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""

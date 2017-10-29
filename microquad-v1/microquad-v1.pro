@@ -1,4 +1,4 @@
-update=Sat 28 Oct 2017 07:20:49 PM EDT
+update=Sat 28 Oct 2017 07:46:36 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=contrib
 LibName34=valves
 LibName35=kipart/atmega328pb
 LibName36=libs/hoppe/eclectronics
+LibName37=libs/imulogger2
