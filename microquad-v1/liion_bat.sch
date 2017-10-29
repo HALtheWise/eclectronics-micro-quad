@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -64,9 +64,7 @@ F 4 "Value" H 4900 2900 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 2750 5400 2750
-Wire Wire Line
-	5400 2750 5350 2750
+	5600 2750 5350 2750
 $Comp
 L C_Small Cbat?
 U 1 1 59F53938
@@ -80,9 +78,7 @@ F 4 "Value" H 5700 2400 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 1800 5600 2250
-Wire Wire Line
-	5600 2250 5600 2750
+	5600 1800 5600 2750
 $Comp
 L GND #PWR019
 U 1 1 59F53940
@@ -183,9 +179,7 @@ F 3 "" H 5100 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5025 3800 5450 3800
-Wire Wire Line
-	5450 3800 5625 3800
+	5025 3800 5625 3800
 Wire Wire Line
 	5625 3800 5625 2950
 Wire Wire Line
@@ -195,9 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3900 5100 3950
 Wire Wire Line
-	4900 4650 5425 4650
-Wire Wire Line
-	5425 4650 5450 4650
+	4900 4650 5450 4650
 Wire Wire Line
 	5450 4650 5450 3800
 Connection ~ 5450 3800
@@ -243,9 +235,7 @@ $EndComp
 Wire Wire Line
 	4900 4850 4975 4850
 Wire Wire Line
-	4975 4850 4975 5025
-Wire Wire Line
-	4975 5025 4975 5075
+	4975 4850 4975 5075
 $Comp
 L R_Small Rbat?
 U 1 1 59F5399C
@@ -297,11 +287,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 4650 3925 4650
 Wire Wire Line
-	3925 4650 3925 4350
+	3925 4350 3925 4650
 Wire Wire Line
-	3925 4350 3700 4350
-Wire Wire Line
-	3700 4350 3500 4350
+	3500 4350 3925 4350
 $Comp
 L C_Small Cbat?
 U 1 1 59F539BD
@@ -331,9 +319,7 @@ Wire Wire Line
 	3700 4400 3700 4350
 Connection ~ 3700 4350
 Wire Wire Line
-	3500 2675 3500 4350
-Wire Wire Line
-	3500 4350 3500 4500
+	3500 2675 3500 4500
 Wire Wire Line
 	3500 4700 3500 4850
 Connection ~ 3500 4350
@@ -381,9 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3150 4250 2950
 Wire Wire Line
-	4250 2950 4375 2950
-Wire Wire Line
-	4375 2950 4450 2950
+	4250 2950 4450 2950
 $Comp
 L GND #PWR027
 U 1 1 59F53A2D
