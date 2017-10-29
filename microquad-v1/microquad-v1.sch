@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -243,5 +243,13 @@ F3 "SCK" I R 3550 1250 60
 F4 "SDI" I R 3550 1350 60 
 F5 "SDO" I R 3550 1450 60 
 F6 "INT" I R 3550 1550 60 
+$EndSheet
+$Sheet
+S 3900 1000 550  300 
+U 59F5C47F
+F0 "BLE" 60
+F1 "ble.sch" 60
+F2 "RX" I L 3900 1100 60 
+F3 "TX" I L 3900 1200 60 
 $EndSheet
 $EndSCHEMATC
