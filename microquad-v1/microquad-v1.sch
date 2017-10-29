@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -497,5 +497,17 @@ Wire Wire Line
 Wire Wire Line
 	10500 5000 10500 5150
 Wire Wire Line
-	10200 5350 10200 5900
+	6150 3400 6400 3400
+$Sheet
+S 2800 5625 900  200 
+U 59F6680F
+F0 "NewBattery" 60
+F1 "newliion_bat.sch" 60
+F2 "Vout" I R 3700 5725 60 
+F3 "Vcharge" I L 2800 5725 60 
+$EndSheet
+Wire Wire Line
+	3700 5725 3850 5725
+Wire Wire Line
+	2600 5725 2800 5725
 $EndSCHEMATC
