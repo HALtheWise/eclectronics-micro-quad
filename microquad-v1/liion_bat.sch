@@ -80,7 +80,7 @@ F 4 "Value" H 5700 2400 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 1800 5600 2250
+	5600 2100 5600 2250
 Wire Wire Line
 	5600 2250 5600 2750
 $Comp
@@ -338,7 +338,7 @@ Wire Wire Line
 	3500 4700 3500 4850
 Connection ~ 3500 4350
 Wire Wire Line
-	4325 1800 4325 2675
+	4325 2100 4325 2675
 Wire Wire Line
 	4325 2675 3500 2675
 $Comp
@@ -410,7 +410,7 @@ Wire Wire Line
 	5400 2450 5400 2750
 Connection ~ 5400 2750
 Wire Wire Line
-	4325 1800 5600 1800
+	4325 2100 5600 2100
 Wire Wire Line
 	5350 2850 5950 2850
 Text HLabel 5950 2850 2    60   Input ~ 0

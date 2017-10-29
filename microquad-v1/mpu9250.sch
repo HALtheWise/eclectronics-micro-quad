@@ -162,14 +162,10 @@ Wire Wire Line
 Connection ~ 6400 2600
 Wire Wire Line
 	6400 2600 6400 2800
-Text HLabel 4550 2600 0    60   Input ~ 0
-CS
 Text HLabel 4550 2800 0    60   Input ~ 0
-SCK
+SCL
 Text HLabel 4550 3000 0    60   Input ~ 0
-SDI
-Text HLabel 4550 3200 0    60   Input ~ 0
-SDO
+SDA
 Text HLabel 4550 3400 0    60   Input ~ 0
 INT
 $Comp
@@ -196,4 +192,21 @@ F 3 "" H 6400 3000 50  0001 C CNN
 $EndComp
 Text Notes 4500 850  0    60   ~ 0
 Origionally from Brad's IMUlogger2
+Wire Wire Line
+	4550 2600 4550 2275
+Wire Wire Line
+	4550 2275 6350 2275
+Wire Wire Line
+	6350 2275 6350 2600
+$Comp
+L GND #PWR?
+U 1 1 59F6670B
+P 4550 3200
+F 0 "#PWR?" H 4550 2950 50  0001 C CNN
+F 1 "GND" H 4550 3050 50  0000 C CNN
+F 2 "" H 4550 3200 50  0001 C CNN
+F 3 "" H 4550 3200 50  0001 C CNN
+	1    4550 3200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

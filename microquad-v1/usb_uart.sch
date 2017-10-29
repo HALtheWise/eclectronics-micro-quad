@@ -279,11 +279,7 @@ F 3 "" H 3625 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 4475 4675 4475
-Wire Wire Line
-	4675 4475 4775 4475
-Wire Wire Line
-	4775 4475 4875 4475
+	4000 4475 4875 4475
 Connection ~ 4775 4475
 Wire Wire Line
 	4000 4025 3900 4025
@@ -306,11 +302,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4075 5475 4075
 Wire Wire Line
-	4000 3975 4000 4025
-Wire Wire Line
-	4000 4025 4000 4075
-Wire Wire Line
-	4000 4075 4000 4175
+	4000 3975 4000 4175
 Wire Wire Line
 	3775 3475 3775 3725
 Wire Wire Line
@@ -322,17 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3525 3325 3525
 Wire Wire Line
-	2325 4425 2425 4425
-Wire Wire Line
-	2425 4425 2525 4425
-Wire Wire Line
-	2525 4425 2625 4425
-Wire Wire Line
-	2625 4425 2725 4425
-Wire Wire Line
-	2725 4425 2825 4425
-Wire Wire Line
-	2825 4425 2900 4425
+	2325 4425 2900 4425
 Wire Wire Line
 	2900 4425 2900 4475
 Connection ~ 2425 4425
@@ -341,9 +323,7 @@ Connection ~ 2625 4425
 Connection ~ 2725 4425
 Connection ~ 2825 4425
 Wire Wire Line
-	3325 3200 3450 3200
-Wire Wire Line
-	3450 3200 3575 3200
+	3325 3200 3575 3200
 Wire Wire Line
 	3325 3200 3325 3325
 Connection ~ 3450 3200
