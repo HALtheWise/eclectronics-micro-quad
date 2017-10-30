@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -522,4 +522,80 @@ Wire Wire Line
 	7600 6000 7600 4550
 Wire Wire Line
 	7600 4550 7200 4550
+$Comp
+L SW_DPDT_x2 SW?
+U 1 1 59F6779C
+P 2000 2250
+F 0 "SW?" H 2000 2420 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 2000 2050 50  0000 C CNN
+F 2 "" H 2000 2250 50  0001 C CNN
+F 3 "" H 2000 2250 50  0001 C CNN
+	1    2000 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 1850 1650 1850
+Wire Wire Line
+	1650 1850 1650 2150
+Wire Wire Line
+	1650 2150 1800 2150
+Wire Wire Line
+	1550 1750 1800 1750
+Wire Wire Line
+	1800 1750 1800 1975
+Wire Wire Line
+	1800 1975 2300 1975
+Wire Wire Line
+	2300 1975 2300 2450
+Wire Wire Line
+	2300 2250 2450 2250
+Wire Wire Line
+	2450 2350 2250 2350
+Wire Wire Line
+	2250 2350 2250 2250
+Wire Wire Line
+	2250 2250 2200 2250
+Wire Wire Line
+	1800 2350 1550 2350
+Wire Wire Line
+	2300 2450 1550 2450
+Connection ~ 2300 2250
+$Sheet
+S 1250 4125 500  150 
+U 59F6B2DC
+F0 "PowerLED" 60
+F1 "LED.sch" 60
+F2 "Vin" I L 1250 4200 60 
+$EndSheet
+$Sheet
+S 6400 3325 500  150 
+U 59F6B438
+F0 "sheet59F6B436" 60
+F1 "LED.sch" 60
+F2 "Vin" I L 6400 3400 60 
+$EndSheet
+$Comp
+L +3V3 #PWR?
+U 1 1 59F6B9F3
+P 1025 4050
+F 0 "#PWR?" H 1025 3900 50  0001 C CNN
+F 1 "+3V3" H 1025 4190 50  0000 C CNN
+F 2 "" H 1025 4050 50  0001 C CNN
+F 3 "" H 1025 4050 50  0001 C CNN
+	1    1025 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 4050 1025 4200
+Wire Wire Line
+	1025 4200 1250 4200
+NoConn ~ 6150 3100
+NoConn ~ 6150 3200
+NoConn ~ 6150 3300
+NoConn ~ 6150 3500
+NoConn ~ 5150 3500
+NoConn ~ 5150 3400
+NoConn ~ 5150 3300
+NoConn ~ 5150 3200
+NoConn ~ 5150 3100
 $EndSCHEMATC
