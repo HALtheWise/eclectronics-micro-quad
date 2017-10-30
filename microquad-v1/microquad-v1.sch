@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -482,8 +482,6 @@ Wire Wire Line
 Wire Wire Line
 	10500 5000 10500 5150
 Wire Wire Line
-	6150 3400 6400 3400
-Wire Wire Line
 	8350 3650 8350 4050
 Wire Wire Line
 	8350 4050 7200 4050
@@ -537,9 +535,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1975 2300 1975
 Wire Wire Line
-	2300 1900 2300 1975
-Wire Wire Line
-	2300 1975 2300 2450
+	2300 1900 2300 2450
 Wire Wire Line
 	2300 1900 2450 1900
 Wire Wire Line
@@ -559,11 +555,11 @@ F1 "LED.sch" 60
 F2 "Vin" I L 1250 4200 60 
 $EndSheet
 $Sheet
-S 6400 3325 500  150 
+S 6400 3225 500  150 
 U 59F6B438
 F0 "sheet59F6B436" 60
 F1 "LED.sch" 60
-F2 "Vin" I L 6400 3400 60 
+F2 "Vin" I L 6400 3300 60 
 $EndSheet
 $Comp
 L +3V3 #PWR?
@@ -582,7 +578,6 @@ Wire Wire Line
 	1025 4200 1250 4200
 NoConn ~ 6150 3100
 NoConn ~ 6150 3200
-NoConn ~ 6150 3300
 NoConn ~ 6150 3500
 NoConn ~ 5150 3500
 NoConn ~ 5150 3400
@@ -602,4 +597,9 @@ F2 "SCL" I L 4200 1900 60
 F3 "SDA" I L 4200 2000 60 
 F4 "INT" I L 4200 2100 60 
 $EndSheet
+NoConn ~ 7200 4650
+NoConn ~ 7200 4750
+NoConn ~ 6150 3400
+Wire Wire Line
+	6150 3300 6400 3300
 $EndSCHEMATC
