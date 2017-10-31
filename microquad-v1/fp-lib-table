@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name eclectronics)(type KiCad)(uri "$(KIPRJMOD)/libs/hoppe/eclectronics.pretty")(options "")(descr ""))
+)
