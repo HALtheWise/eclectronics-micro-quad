@@ -1,4 +1,4 @@
-update=Sat 28 Oct 2017 07:46:36 PM EDT
+update=Tue 31 Oct 2017 07:43:59 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -66,3 +64,5 @@ LibName34=valves
 LibName35=kipart/atmega328pb
 LibName36=libs/hoppe/eclectronics
 LibName37=libs/imulogger2
+[general]
+version=1

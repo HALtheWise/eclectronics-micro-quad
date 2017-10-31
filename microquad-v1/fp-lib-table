@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name eclectronics)(type KiCad)(uri "$(KIPRJMOD)/libs/hoppe/eclectronics.pretty")(options "")(descr ""))
+  (lib (name motor)(type KiCad)(uri "$(KIPRJMOD)/motor.pretty")(options "")(descr ""))
 )
