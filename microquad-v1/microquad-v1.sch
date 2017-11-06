@@ -470,6 +470,7 @@ U 59F7E793
 F0 "Motor1" 60
 F1 "motor.sch" 60
 F2 "ENABLE" I L 8350 3375 60 
+F3 "VBAT" I R 9275 3375 60 
 $EndSheet
 $Sheet
 S 8350 3650 925  175 
@@ -477,6 +478,7 @@ U 59F7F6E8
 F0 "Motor2" 60
 F1 "motor.sch" 60
 F2 "ENABLE" I L 8350 3725 60 
+F3 "VBAT" I R 9275 3725 60 
 $EndSheet
 $Sheet
 S 8350 4000 925  175 
@@ -484,6 +486,7 @@ U 59F7FC5E
 F0 "Motor3" 60
 F1 "motor.sch" 60
 F2 "ENABLE" I L 8350 4075 60 
+F3 "VBAT" I R 9275 4075 60 
 $EndSheet
 $Sheet
 S 8350 4350 925  175 
@@ -491,6 +494,7 @@ U 59F7FC61
 F0 "Motor4" 60
 F1 "motor.sch" 60
 F2 "ENABLE" I L 8350 4425 60 
+F3 "VBAT" I R 9275 4425 60 
 $EndSheet
 $Sheet
 S 8350 4700 925  175 
@@ -498,6 +502,7 @@ U 59F7FFA1
 F0 "Motor5" 60
 F1 "motor.sch" 60
 F2 "ENABLE" I L 8350 4775 60 
+F3 "VBAT" I R 9275 4775 60 
 $EndSheet
 $Sheet
 S 8350 5050 925  175 
@@ -505,6 +510,7 @@ U 59F7FFA4
 F0 "Motor6" 60
 F1 "motor.sch" 60
 F2 "ENABLE" I L 8350 5125 60 
+F3 "VBAT" I R 9275 5125 60 
 $EndSheet
 Wire Wire Line
 	7200 4050 7450 4050
@@ -542,4 +548,25 @@ Wire Wire Line
 	7450 4550 7450 5125
 Wire Wire Line
 	7450 5125 8350 5125
+Text Label 9375 3200 0    60   ~ 0
+VBAT
+Wire Wire Line
+	9375 3200 9375 5125
+Wire Wire Line
+	9375 5125 9275 5125
+Wire Wire Line
+	9275 4775 9375 4775
+Connection ~ 9375 4775
+Wire Wire Line
+	9275 4425 9375 4425
+Connection ~ 9375 4425
+Wire Wire Line
+	9275 3375 9375 3375
+Connection ~ 9375 3375
+Wire Wire Line
+	9275 3725 9375 3725
+Connection ~ 9375 3725
+Wire Wire Line
+	9275 4075 9375 4075
+Connection ~ 9375 4075
 $EndSCHEMATC
