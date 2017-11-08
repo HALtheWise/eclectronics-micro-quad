@@ -1,4 +1,4 @@
-update=Mon 06 Nov 2017 05:04:28 PM EST
+update=Tue 07 Nov 2017 08:40:38 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,13 @@ LibName36=libs/hoppe/eclectronics
 LibName37=libs/imulogger2
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
